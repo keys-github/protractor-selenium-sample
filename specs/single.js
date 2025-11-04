@@ -26,7 +26,11 @@ describe('Add todo Lists', function () {
 
 
 		var foo = element(by.xpath('//html/body/div/div/div/ul/li[6]/span'));
-        	expect(foo.getText()).toEqual("Yey, Let's add it to list");
+        	foo.getText().then(function (text) {
+                expect(text.replace(/\s+/g, ' ').trim()).toEqual("Yey, Let's add it to list");
+            });
+
+
 
     });
 
