@@ -17,10 +17,10 @@
     "url": "https://github.com/lambdatest/protractor-selenium-sample"
   },
   "dependencies": {
-    "protractor": "^5.4.2"
+    "protractor": "^7.0.0"
   },
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^10.1.0"
   }
 }
